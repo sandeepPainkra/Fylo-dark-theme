@@ -1,0 +1,354 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family: "Raleway", sans-serif;
+}
+html {
+   font-size: 16px;
+}
+h2,
+h1,
+h3,
+h4,
+h5,
+h6,
+p {
+   margin: 0;
+   padding: 0;
+}
+.heading {
+   width: 100%;
+   height: 150vh;
+   background: #1c2431 url("./images/bg-curvy-desktop.svg") bottom no-repeat;
+   padding: 3rem 0 1rem;
+   background-size: 100% 270px;
+}
+#navigation {
+   background: none;
+   border: 0;
+   margin-bottom: 1rem;
+}
+#navigation img {
+   /* width: 100%; */
+}
+#navigation ul li a {
+   font-size: 1rem;
+   font-weight: 500;
+   color: #fff;
+   text-transform: capitalize;
+}
+#navigation .navbar-toggle .icon-bar {
+   background-color: #fff;
+}
+
+.banner {
+   width: 100%;
+   position: relative;
+   top: 3.9rem;
+}
+.banner img {
+   width: 67%;
+}
+.banner_text {
+   width: 60%;
+   color: #fff;
+   margin: 2rem auto;
+}
+.banner_text h2 {
+   font-size: 2.4rem;
+   font-weight: 500;
+   margin-bottom: 2.7rem;
+}
+.banner_text p {
+   font-size: 1.4rem;
+   font-weight: 500;
+   line-height: 1.8rem;
+}#button {
+   width: 40%;
+   height: 3rem;
+   margin-top: 2.5rem;
+   background: rgb(20, 116, 115);
+   border: 0;
+   border-radius: 3rem;
+   font-size: 1rem;
+   font-weight: 500;
+   text-transform: capitalize;
+   letter-spacing: 2px;
+   background: linear-gradient(
+      90deg,
+      rgba(20, 116, 115, 1) 0%,
+      rgba(0, 200, 254, 1) 0%,
+      rgba(9, 204, 255, 1) 26%,
+      rgba(18, 133, 180, 1) 79%,
+      rgba(35, 139, 196, 1) 100%,
+      rgba(42, 180, 255, 1) 100%,
+      rgba(16, 164, 194, 1) 100%,
+      rgba(62, 88, 118, 1) 100%,
+      rgba(15, 97, 143, 1) 100%,
+      rgba(51, 134, 180, 0.9391106784510679) 100%,
+      rgba(212, 202, 202, 1) 100%
+   );
+}
+
+
+/* four_divide starts here */
+.four_divide{
+    width: 100%;
+    padding: 4.8rem 0 3rem;
+    background-color: #181F2A;
+    color: #fff;
+}
+.four_divide .box{
+    width: 70%;
+    margin: 0 auto;
+    padding: 2rem 0 0;
+}
+.four_divide .box img{
+    width: 20%;
+    margin-bottom: 2rem;
+    margin-top: 2.6rem;
+}
+.four_divide .box h2{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+}
+.four_divide .box p{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+/* four_divide ends here */
+
+/* stay_productive starts */
+.stay_productive{
+    width: 100%;
+    padding: 3rem 0;
+    background-color: #181F2A;
+    color: #fff;
+}
+.stay_productive .left{
+    width: 100%;
+}
+.stay_productive .left img{
+    width: 100%;
+}
+.stay_productive .right{
+    float: right;
+    padding-top: 7rem;
+}
+.stay_productive .right h2{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.stay_productive .right p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.stay_productive .right a{
+    font-size: 1rem;
+    text-decoration: underline;
+    position: relative;
+    top: 2rem;
+}
+
+
+/* Three section starts  */
+.three_section{
+    width:100%;
+    padding: 8rem 0 3rem;
+    background-color: #181F2A;
+    color: #fff;
+}
+.three_section .first_box{
+   position: relative;
+   z-index: 4;
+   width: 100%;
+   background-color: #1c2431;
+   padding: 2.8rem 2rem;
+}
+.first_box p{
+   font-size: 0.9rem;
+   font-weight: 400;
+   margin-bottom: 2rem;
+}
+.bio{
+   width: 100%;
+}
+.bio img{
+   width: 60%;
+   float: center;
+}
+.bio h2{
+   font-size: 0.9rem;
+   font-weight: 400;
+   
+}
+.bio h6{
+   font-size: 0.8rem;
+}
+.position{
+   position: relative;
+   right: 2.6rem;
+}
+.quotationit::before{
+   content: url("images/bg-quotes.png");
+   width: 400px ;
+   height: 400px;
+   position: absolute;
+   top: -1.7rem;
+   left: -1rem;
+   z-index: 2 !important;
+}
+.form_div{
+   width: 80%;
+   margin: 0 auto;
+   margin-top: 3rem;
+   background-color: #1c2431;
+   padding: 3rem;
+   border-radius: 5px;
+   position: relative;
+   top: 14rem;
+}
+.form_div h1{
+   font-size: 3rem;
+   font-weight: 600;
+   margin-bottom: 2rem;
+}
+.form_div p{
+   font-size: 1rem;
+   font-weight: 400;
+}
+.form_div input{
+   border-radius: 1rem;
+   width: 50%;
+   margin: 3rem auto 0;
+   height: 3rem;
+}.form_div button{
+   width: 80%;
+   margin-top: 0;
+   position: relative;
+   top: -2rem;
+}
+.form_div #button{
+   width: 20rem;
+}
+/* Three section ends  */
+
+
+/* footer starts here */
+ 
+.footer{
+   width: 100%;
+   padding: 6rem 0 3rem;
+   background-color: #0B1523;
+   color: #fff;
+}
+.footer .inner{
+   margin-top: 13rem;
+}
+.footer img{
+   margin-bottom: 2rem;
+}
+.footer p{
+   font-size: 0.9rem;
+   line-height: 1.6rem;
+}
+.f_second{
+   width: 100%;
+   align-items: center;
+}
+.f_second .flex{
+   display: flex;
+   align-items: center;
+}
+.f_second .flex i{
+   margin-right: 1rem;
+}
+.footer .f_third{
+   width: 100%;
+}
+.footer .f_third ul{
+   list-style-type: none;
+  padding: 0;
+}
+.footer .f_third ul li a{
+   color: #fff;
+   font-size: 1rem;
+   text-transform: capitalize;
+}
+.f_fourth{
+   width: 100%;
+}
+.f_fourth i{
+   font-size: 1.3rem;
+   padding: 0.8rem;
+   border-radius: 100%;
+   cursor: pointer;
+}
+/* footer ends here */
+
+@media only screen and (max-width:376px){
+   html{
+      font-size: 14px;
+   }
+   .banner h2{
+      font-size: 1.5rem;
+   }
+   .banner_text p{
+      font-size: 1rem;
+   }
+   .heading{
+      height: 100vh;
+   }
+   #button{
+      width: 80%;
+   }
+   .form_div{
+      width: 90%;
+   }
+   .form_div h1{
+      font-size: 1.8rem;
+   }
+   .form_div input{
+      width: 100%;
+   }
+   .form_div #button{
+      width: 15rem;
+   }
+   .f_second{
+      margin: 2rem 0;
+   }
+}
+@media only screen and (max-width:400px){
+   html{
+      font-size: 15px;
+   }
+   .banner h2{
+      font-size: 1.5rem;
+   }
+   .banner_text p{
+      font-size: 1rem;
+   }
+   .heading{
+      height: 100vh;
+   }
+   #button{
+      width: 80%;
+   }
+   .form_div{
+      width: 90%;
+   }
+   .form_div h1{
+      font-size: 1.8rem;
+   }
+   .form_div input{
+      width: 100%;
+   }
+   .form_div #button{
+      width: 15rem;
+   }
+   .f_second{
+      margin: 2rem 0;
+   }
+}
